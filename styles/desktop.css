@@ -1,0 +1,41 @@
+@media (min-width: 700px) {
+  .card-container {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+    height: 450px;
+  }
+
+  .desktop-img {
+    display: block;
+    width: 300px;
+    height: 100%;
+  }
+
+  .mobile-img {
+    display: none;
+  }
+
+  .text-container {
+    padding: 32px;
+    height: 100%;
+  }
+
+  h5 {
+    margin: 0px auto 20px auto;
+  }
+
+  h1 {
+    margin: 20px auto 24px auto;
+    line-height: 32px;
+  }
+
+  .description {
+    margin: 24px auto 29px auto;
+  }
+
+  .prices-container {
+    margin: 29px auto 30px auto;
+  }
+}

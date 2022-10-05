@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400&display=swap');
+
+:root {
+  --cream: #f2eae2;
+  --deep-aquamarine: #3d8168;
+  --deep-aquamarine-hover: #1a4032;
+  --gunmetal: #1c232b;
+  --aurometal-saurus: #6c7289;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  position: absolute;
+  padding: 10px;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: var(--white);
+  color: var(--aurometal-saurus);
+}
+
+.attribution a,
+.attribution a:visited {
+  text-decoration: underline;
+  color: var(--aurometal-saurus);
+}
+
+.attribution a:hover {
+  color: var(--gunmetal);
+}
+
+body {
+  background-color: var(--cream);
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 14px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+  margin: 0;
+  height: 100vh;
+  min-height: 750px;
+  position: relative;
+}
+
+.card-container {
+  margin-top: -38px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 343px;
+}
+
+.desktop-img {
+  display: none;
+}
+
+.mobile-img {
+  width: 343px;
+  height: 240px;
+}
+
+.text-container {
+  padding: 0 24px 24px 24px;
+}
+
+h5 {
+  margin: 24px auto 12px auto;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--aurometal-saurus);
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+h1 {
+  margin: 12px auto 16px auto;
+  font-family: 'Fraunces';
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--gunmetal);
+}
+
+.description {
+  margin: 16px auto 24px auto;
+  font-size: 14px;
+  line-height: 23px;
+  color: var(--aurometal-saurus);
+}
+
+.prices-container {
+  margin: 24px auto 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.new-price {
+  font-family: 'Fraunces';
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--deep-aquamarine);
+  margin: 0;
+}
+
+.old-price {
+  font-family: 'Fraunces';
+  font-size: 13px;
+  text-decoration: line-through;
+  color: var(--aurometal-saurus);
+  margin-left: 19px;
+}
+
+button {
+  background-color: var(--deep-aquamarine);
+  color: var(--white);
+  font-family: inherit;
+  font-weight: 700;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 12px;
+}
+
+button:active,
+button:hover {
+  background-color: var(--deep-aquamarine-hover);
+  cursor: pointer;
+}
