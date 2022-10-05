@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@400;500;700&display=swap');
 
 :root {
   --cream: #f2eae2;
@@ -14,26 +13,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
-
-.attribution {
-  position: absolute;
-  padding: 10px;
-  bottom: 0px;
-  width: 100%;
-  text-align: center;
-  background-color: var(--white);
-  color: var(--aurometal-saurus);
-}
-
-.attribution a,
-.attribution a:visited {
-  text-decoration: underline;
-  color: var(--aurometal-saurus);
-}
-
-.attribution a:hover {
-  color: var(--gunmetal);
 }
 
 body {
@@ -146,4 +125,24 @@ button:active,
 button:hover {
   background-color: var(--deep-aquamarine-hover);
   cursor: pointer;
+}
+
+.attribution {
+  position: absolute;
+  padding: 10px;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  background-color: var(--deep-aquamarine);
+  color: var(--cream);
+}
+
+.attribution a,
+.attribution a:visited {
+  text-decoration: underline;
+  color: var(--cream);
+}
+
+.attribution a:hover {
+  font-weight: 500;
 }
