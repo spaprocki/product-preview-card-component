@@ -32,7 +32,6 @@ body {
 }
 
 .card-container {
-  margin-top: -38px;
   background-color: var(--white);
   display: flex;
   flex-direction: column;
