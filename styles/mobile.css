@@ -42,6 +42,11 @@ body {
   width: 343px;
 }
 
+picture {
+  width: 343px;
+  height: 240px;
+}
+
 picture img {
   width: 343px;
   height: 240px;
